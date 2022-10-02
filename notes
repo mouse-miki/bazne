@@ -1,0 +1,7 @@
+Přehrávání zvuku
+    - udělat tam hlasitost a mute
+
+var audio = $("#mySoundClip")[0];
+$("nav a").mouseenter(function() {
+  audio.play();
+});
